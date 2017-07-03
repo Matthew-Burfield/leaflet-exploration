@@ -1,0 +1,17 @@
+input#searchBox {
+  margin: 0 auto;
+  width: 500px;
+  font-size: 30px;
+  font-weight: 100;
+  position: fixed;
+  left: 30%;
+  top: 20px;
+}
+
+@media (max-width: 780px) {
+  input#searchBox {
+    width: 400px;
+    font-size: 20px;
+    left: 20%;
+  }
+}
